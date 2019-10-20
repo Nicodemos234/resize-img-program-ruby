@@ -1,3 +1,4 @@
-#use URL or directory 
+require 'mini_magick'
 
-#user have to name the new file
+puts "please insert a valid image's URL:"
+url = gets.chomp()
