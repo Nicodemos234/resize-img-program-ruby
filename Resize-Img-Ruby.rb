@@ -7,7 +7,9 @@ image = MiniMagick::Image.open(
     url
 )
 
-image.resize "50%"
+puts "how smaller or largest do you want your image ('50%')"
+    size = gets.chomp()
+image.resize size
 
 puts "insert directory and image name ('/home/new_img2.jpg'):"
     dir = gets.chomp()
